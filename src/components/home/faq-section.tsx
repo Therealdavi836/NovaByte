@@ -9,32 +9,32 @@ import Container from "./container"
 
 const data = {
   id: "faqs",
-  title: "Preguntas Frecuentes",
-  description: "Encuentra respuestas a las preguntas más comunes",
+  title: "Preguntas Frecuentes Sobre Nuestros Servicios",
+  description: "Encuentra respuestas a las preguntas más comunes sobre nuestros servicios de desarrollo web.",
   faqs: [
     {
       id: "1",
       question: "¿Qué servicios ofrecen?",
       answer:
-        "Ofrecemos desarrollo web personalizado, e-commerce, aplicaciones web progresivas, y más.",
+        "Ofrecemos desarrollo web personalizado, e-commerce, aplicaciones web progresivas, y más soluciones en función del negocio.",
     },
     {
       id: "2",
       question: "¿Cómo puedo contactar con ustedes?",
       answer:
-        "Puedes contactarnos a través del formulario en la sección de contacto o llamando a nuestro número de teléfono.",
+        "Puedes contactarnos a través del formulario en la sección de contacto, llamando a nuestro número de teléfono o enviandonos un correo a nuestra direccion principal.",
     },
     {
       id: "3",
       question: "¿Cuánto tiempo tarda un proyecto?",
       answer:
-        "El tiempo de desarrollo varía según la complejidad del proyecto, pero generalmente toma entre 4 a 8 semanas.",
+        "El tiempo de desarrollo varía según la complejidad del proyecto, los requisitos propuestos, las tecnologias usadas y la disponibilidad de nuestro equipo de trabajo.",
     },
     {
       id: "4",
       question: "¿Ofrecen soporte después del lanzamiento?",
       answer:
-        "Sí, ofrecemos soporte continuo y mantenimiento para asegurar que tu sitio web esté siempre actualizado y seguro.",
+        "Sí, ofrecemos soporte continuo y mantenimiento para asegurar que tu sitio web esté siempre actualizado y seguro, siempre y cuando estes al dia con la mensualidad de mantenimiento ofrecida por nosotros.",
     },
   ],
 }

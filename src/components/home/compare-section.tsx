@@ -20,7 +20,7 @@ const data = {
   ],
   comparisons: [
     {
-      name: "Kira",
+      name: "NovaByte",
       features: [true, true, true, true, true, true, true],
     },
     {

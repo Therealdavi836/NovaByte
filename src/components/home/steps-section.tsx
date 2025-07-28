@@ -5,9 +5,9 @@ import { Card, CardDescription, CardHeader } from "@/components/ui/card"
 
 const data = {
   id: "steps",
-  title: "Cómo conseguir tu página web",
+  title: "Cómo creamos tu página web",
   description:
-    "Te guiamos a través de un proceso sencillo y efectivo para obtener la página web perfecta para tu negocio.",
+    "Te acompañamos en cada paso del proceso, desde la consulta inicial hasta el lanzamiento de tu sitio web, asegurando que obtengas una solución a medida y de alta calidad.",
   button: {
     text: "Contáctanos",
     icon: PhoneCall,
@@ -19,28 +19,28 @@ const stepsData = [
     step: 1,
     title: "Consulta Inicial",
     description:
-      "Puedes contactarnos o relizar el simulador para entender tus necesidades y ofrecerte un estimado del costo de tu página web.",
+      "Puedes contactarnos por diferentes medios o realizar el simulador para entender tus necesidades y ofrecerte un estimado aproximado del costo de tu página web.",
     icon: FileText,
   },
   {
     step: 2,
     title: "Propuesta Detallada",
     description:
-      "Estaremos en contacto para realizar una propuesta detallada con el diseño y funcionalidades ideales para tu negocio.",
+      "Estaremos en contacto para realizar una propuesta detallada con el diseño y funcionalidades ideales para tu negocio teniendo en cuenta los requisitos, tecnologias usadas y el tiempo de desarrollo aproximado.",
     icon: Handshake,
   },
   {
     step: 3,
     title: "Desarrollo y Ajustes",
     description:
-      "Desarrollamos tu página web y te mantenemos informado para hacer los ajustes necesarios según tus preferencias.",
+      "Desarrollaremos tu página web y te mantendremos informado para hacer los ajustes necesarios según tus preferencias o solicitudes realizadas por ti.",
     icon: Code,
   },
   {
     step: 4,
-    title: "Lanzamiento",
+    title: "Lanzamiento y despliegue",
     description:
-      "Lanzamos tu página web y te ofrecemos soporte constante para asegurarnos de que todo funcione a la perfección.",
+      "Lanzaremos tu página web y te ofreceremos soporte constante para asegurarnos de que todo funcione perfectamente y a tu medida.",
     icon: Rocket,
   },
 ]

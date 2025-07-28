@@ -73,8 +73,8 @@ export function PriceSimulatorForm() {
   return (
     <Container
       id="price-simulator"
-      title="Simulador de precios"
-      description="Obtén una estimación aproximada del costo de tu sitio web en minutos"
+      title="Simulador de precios y costos"
+      description="Obtén una estimación aproximada del costo de tu sitio web en menos de 3 minutos"
     >
       <div className="mx-auto w-full max-w-4xl space-y-4">
         <StepIndicator steps={STEPS} currentStep={currentStep} />

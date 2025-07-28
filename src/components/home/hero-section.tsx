@@ -13,10 +13,10 @@ import { Button } from "@/components/ui/button"
 
 const data = {
   id: "hero",
-  title: "Tu web, sin complicaciones ni secretos",
+  title: "Potencia tu presencia online y haz crecer tu negocio con una web profesional",
   description:
-    "Con tecnologías modernas y un enfoque transparente, creamos páginas web a medida, para que tú solo te dediques a lo que más importa: hacer crecer tu negocio.",
-  buttonText: "Conseguir mi web",
+    "Desarrollamos sitios web personalizados utilizando tecnología de vanguardia y total transparencia, para que puedas enfocarte en expandir tu empresa.",
+  buttonText: "Quiero mi sitio web",
   previewImages: [
     {
       src: "https://xsnn3yjlik38vz3y.public.blob.vercel-storage.com/projects/eventify-8RwssdeZe87q6kesjPtLZEIOASfQhz.webp",

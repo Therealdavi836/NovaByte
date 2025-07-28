@@ -10,10 +10,10 @@ export function ContactSection() {
         <div className="flex flex-col justify-center gap-5">
           <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
             <h2 className="text-4xl font-bold tracking-tighter md:text-5xl">
-              ¡Contáctanos!
+              Contáctanos
             </h2>
             <p className="mt-4 text-muted-foreground">
-              Estamos aquí para ayudarte. Completa el formulario para ponerte en
+              Estamos aquí para ayudarte y a darte soporte continuo en lo que necesites, Completa el siguiente formulario para ponerte en
               contacto con nosotros.
             </p>
           </div>
@@ -21,10 +21,10 @@ export function ContactSection() {
             <div className="flex items-center gap-6 lg:mx-0">
               <Check className="size-4 text-primary" />
               <div className="flex flex-col gap-1">
-                <p>Diseño Personalizado</p>
+                <p>Diseño Personalizado y adaptado a tus necesidades</p>
                 <p className="text-sm text-muted-foreground">
                   Creamos páginas web únicas que reflejan la identidad de tu
-                  marca.
+                  marca y ofrecen a tu publico una visión integral de tu negocio.
                 </p>
               </div>
             </div>
@@ -34,17 +34,17 @@ export function ContactSection() {
                 <p>Optimización SEO</p>
                 <p className="text-sm text-muted-foreground">
                   Nuestras páginas están optimizadas para mejorar tu visibilidad
-                  en motores de búsqueda.
+                  en motores de búsqueda y reducir cargas innecesarias, somos expertos en ofrecer esteticas unicas.
                 </p>
               </div>
             </div>
             <div className="flex items-center gap-6 lg:mx-0">
               <Check className="size-4 text-primary" />
               <div className="flex flex-col gap-1">
-                <p>Soporte Continuo</p>
+                <p>Soporte Continuo las 24/7</p>
                 <p className="text-sm text-muted-foreground">
                   Ofrecemos soporte constante para asegurar que tu sitio web
-                  funcione perfectamente.
+                  funcione perfectamente y hacemos los mantenimientos necesarios para evitar fallas.
                 </p>
               </div>
             </div>

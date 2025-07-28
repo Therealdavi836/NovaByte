@@ -37,24 +37,24 @@ const navItems = [
 
 const serviceNav = [
   {
-    title: "Desarrollo Web",
+    title: "Paginas, sitios y aplicativos Web",
     href: "#contact",
-    description: "Sitios web personalizados adaptados a tus necesidades.",
+    description: "Paginas web personalizadas y adaptados a tus necesidades.",
     icon: AppWindow,
     active: true,
   },
   {
-    title: "Asesorías",
+    title: "Asesorías y seguimiento de proyectos",
     href: "",
-    description: "Asesoría para mejorar o crear tus proyectos tecnológicos.",
+    description: "Asesoría para contextualizar, mejorar o crear tus proyectos tecnológicos.",
     icon: Speech,
     active: true,
   },
   {
-    title: "Soluciones Cloud (Pronto)",
+    title: "Soluciones en la nube o cloud (Pronto)",
     href: "",
     description:
-      "Infraestructura y servicios en la nube escalables y seguros con AWS.",
+      "Infraestructura y servicios en la nube escalables y seguros con servicios de AWS.",
     icon: Cloud,
     active: false,
   },
@@ -62,10 +62,10 @@ const serviceNav = [
 
 const pricesNav = [
   {
-    title: "Simulador",
+    title: "Simulador de costos",
     href: "#price-simulator",
     description:
-      "Obtén una visión clara de tu proyecto web. Completa el formulario según tus necesidades y te daremos un precio aproximado.",
+      "Descubre el costo estimado de tu proyecto web. Completa el formulario según tus requerimientos y obtén una cotización aproximada.",
     icon: Calculator,
     isMain: true,
   },
@@ -73,14 +73,14 @@ const pricesNav = [
     title: "Contacto",
     href: "#contact",
     description:
-      "Ponte en contacto con nosotros para más información y consultas.",
+      "Contáctanos para recibir más detalles, resolver dudas o solicitar asesoría personalizada.",
     icon: Mail,
   },
   {
     title: "Preguntas Frecuentes",
     href: "#faqs",
     description:
-      "Encuentra respuestas a las preguntas más comunes sobre nuestros servicios.",
+      "Consulta las respuestas a las dudas más habituales sobre nuestros servicios y procesos.",
     icon: Library,
   },
 ]
@@ -213,33 +213,29 @@ export function Header() {
                     <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
                       <ListItem
                         href="#price-simulator"
-                        title="Simulador"
+                        title="Simulador de costos"
                         icon={Calculator}
                         onItemClick={closeSheet}
                         isMain={true}
                       >
-                        Obtén una visión clara de tu proyecto web. Completa el
-                        formulario según tus necesidades y te daremos un precio
-                        aproximado.
+                        Calcula el valor estimado de tu proyecto web. Indica tus requerimientos en el formulario y recibe una cotización aproximada.
                       </ListItem>
-                      <ListItem
+                        <ListItem
                         href="#contact"
                         title="Contacto"
                         icon={Mail}
                         onItemClick={closeSheet}
-                      >
-                        Ponte en contacto con nosotros para más información y
-                        consultas.
-                      </ListItem>
-                      <ListItem
+                        >
+                        Escríbenos para recibir detalles adicionales o resolver tus dudas.
+                        </ListItem>
+                        <ListItem
                         href="#faqs"
                         title="Preguntas Frecuentes"
                         icon={Library}
                         onItemClick={closeSheet}
-                      >
-                        Encuentra respuestas a las preguntas más comunes sobre
-                        nuestros servicios.
-                      </ListItem>
+                        >
+                        Consulta las dudas más habituales sobre nuestros servicios y obtén información clara y rápida.
+                        </ListItem>
                     </ul>
                   </NavigationMenuContent>
                 </NavigationMenuItem>
